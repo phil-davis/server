@@ -11,43 +11,6 @@ def main(ctx):
       'base': 'v19.10',
       'tags': [],
     },
-
-    {
-      'value': 'latest',
-      'qa': 'https://download.owncloud.org/community/owncloud-10.4.0-qa.tar.bz2',
-      'tarball': 'https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2',
-      'tarball_sha': 'ec6ac9a507f4196453da4526f44cc079b96f7e7863bafe4eb6ba373962907bb6',
-      'ldap': 'https://marketplace.owncloud.com/api/v1/apps/user_ldap/0.15.0',
-      'ldap_sha': '742703c66a8a112636c30aa500d7b4fdff670bac179fe3ae658a2b4016e5847f',
-      'php': '7.3',
-      'behat_version': '10.4.0',
-      'base': 'v19.10',
-      'tags': [],
-    },
-
-    {
-      'value': '10.4.0',
-      'qa': 'https://download.owncloud.org/community/owncloud-10.4.0-qa.tar.bz2',
-      'tarball': 'https://download.owncloud.org/community/owncloud-10.4.0.tar.bz2',
-      'tarball_sha': 'ec6ac9a507f4196453da4526f44cc079b96f7e7863bafe4eb6ba373962907bb6',
-      'ldap': 'https://marketplace.owncloud.com/api/v1/apps/user_ldap/0.15.0',
-      'ldap_sha': '742703c66a8a112636c30aa500d7b4fdff670bac179fe3ae658a2b4016e5847f',
-      'php': '7.3',
-      'base': 'v19.10',
-      'tags': ['10.4', '10'],
-    },
-
-    {
-      'value': '10.3.2',
-      'qa': 'https://download.owncloud.org/community/testing/owncloud-10.3.2-qa.tar.bz2',
-      'tarball': 'https://download.owncloud.org/community/owncloud-10.3.2.tar.bz2',
-      'tarball_sha': '0af4429bd477b4d9f829c9a69b47bb855d22c4a36de7d3e402f3852c33223c33',
-      'ldap': 'https://marketplace.owncloud.com/api/v1/apps/user_ldap/0.14.0',
-      'ldap_sha': 'f6bc61e2820b464cf7ad08061607f45ede892f0257d7c5ac1aa5a969caa58769',
-      'php': '7.3',
-      'base': 'v19.10',
-      'tags': ['10.3'],
-    },
   ]
 
   arches = [
